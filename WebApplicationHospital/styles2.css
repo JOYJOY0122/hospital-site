@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 241, 248);
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #87CEFA; /* 淺藍色 */
+    color: #fff; /* 白色文字 */
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+#form1 {
+    /*margin-top: 90px;*/
+}
+
+.MedicalRecord {
+    text-align: center;
+    color: #5d7b9d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TotalBox {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.gender {
+    color: #5d7b9d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt1 {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    color: #5d7b9d;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.Gender {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#RadioButtonList1 {
+    border-color: #5d7b9d;
+}
+
+.inp {
+    border: 1px solid #5d7b9d;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inpwid {
+    width: 250px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+    margin: 30px auto;
+}
+
+.btn {
+    color: #5d7b9d;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #5d7b9d;
+    width: 120px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 0px #d0d1cd;
+}
+
+    .btn:hover {
+        background-color: #5d7b9d;
+        color: white;
+        transition: 0.5s;
+        box-shadow: -2px -2px 0px #d0d1cd;
+    }
